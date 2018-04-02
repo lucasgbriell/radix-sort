@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Input_comp from './Components/Input_comp'
+//import Input_comp from './Components/Input_comp'
 import Card_comp from './Components/Card_comp'
 
 class App extends Component {
@@ -12,11 +12,14 @@ class App extends Component {
         my_array: [4, 3, 25, 1, 2, 1],
         final_array: []
     };
+    this.add = this.add.bind(this);
 }
 add() {
     var joined = this.state.my_array.concat(0);
     this.setState({ my_array: joined })
+    console.log(this.my_array)
 }
+
 radix() {
     let arr = this.state.my_array;
     var joine;
@@ -94,7 +97,10 @@ radix() {
         <div className="container">
          
             <div className="col-md-4"></div>
-              <Input_comp/>
+                  <div className="col-md-4 input-div">
+                    <input id="Input" type="text" />
+                    <button type="submit" value="Submit" onClick={this.add.bind()}>Send</button>
+                  </div>
             <div className="col-md-4"></div>
         </div>
     

@@ -5,7 +5,7 @@ const Card_content = (props) => (
     
     <div className="middle">
         <h4>Index of array</h4>
-        <h1 >{props.numero}</h1>
+        <h1 >{props.number}</h1>
     </div>
 )
 
