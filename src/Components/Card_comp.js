@@ -6,7 +6,7 @@ const Card_comp = (props) => (
 
     <div className="col-md-2 col-sm-3 col-3 card-design">
         <Card_header/>
-        <Card_content number={props.value}/>
+        <Card_content number={props.value} index={props.index}/>
     </div>
 )
 
