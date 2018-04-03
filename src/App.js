@@ -95,7 +95,7 @@ radix() {
       
 
         <div className="container">
-         
+            <div class="col-md-12 space-10"></div>
             <div className="col-md-4"></div>
                   <div className="col-md-4 input-div">
                     <input id="Input" type="text" />
@@ -103,8 +103,8 @@ radix() {
                   </div>
             <div className="col-md-4"></div>
         </div>
-    
-            <div className="col-md-8">
+            <div className="col-md-1 col-sm-2"></div>
+            <div className="col-md-11 text-center centered">
                {
                    this.state.my_array.map(function(item, index){
                     return <Card_comp value={item} key={index}/>
