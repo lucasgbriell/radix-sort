@@ -2,7 +2,7 @@
 
 ### Project Description:
 
-Small Project to practice what we have learn about kind of array organizers. In this project, made all by JavaScript (using react library).
+Small Project to practice what we have learn about kind of array organizers. In this simple project  made all by JavaScript (using react library).
 
 ### What is it Radix-sort?
 
@@ -13,13 +13,13 @@ The lower bound for Comparison based sorting algorithm (Merge Sort, Heap Sort, Q
 This project uses:
 
 * [React](https://reactjs.org/) - Library.
-* [JavaScript](#) - and pure JS.
+* [JavaScript](#) - and a touch of pure JavaScript.
 
 ### Installation
 
 It requires [React](https://reactjs.org//) Library.
 
-Clone the project and install the dependencies and start the server.
+Clone the project, install the dependencies and start the server.
 
 ```sh
 $ git clone git@github.com:lucasgbriell/radix-sort.git
