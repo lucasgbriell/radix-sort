@@ -2,7 +2,7 @@
 
 ### Project Description:
 
-Small Project to practice what we have learn about kind of array organizers. In this simple project  made all by JavaScript (using react library).
+Small Project to practice what we have learned about kind of array organizers. In this simple project  made all by JavaScript (using react library).
 
 ### What is it Radix-sort?
 
@@ -20,6 +20,8 @@ This project uses:
 It requires [React](https://reactjs.org//) Library.
 
 Clone the project, install the dependencies and start the server.
+
+If you have got [NodeJS](https://nodejs.org/en/) installed then, execute the codes below!. If you don't (what you are doing with your life?), install it first.
 
 ```sh
 $ git clone git@github.com:lucasgbriell/radix-sort.git
